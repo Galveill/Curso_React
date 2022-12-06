@@ -1,0 +1,46 @@
+img {
+  width: 250px;
+}
+
+.orgList {
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr;
+  grid-template-rows: 20px;
+  grid-auto-rows: 100px;
+  grid-gap: 15px 5px;
+  max-width: 40vw;
+}
+.orgList img {
+  width: 100px;
+}
+
+.orgList :not() {
+  margin-bottom: 5px;
+}
+
+.orgList :nth-child(-n+3) {
+  background-color: #2f4858;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 2px;
+}
+
+.orgList :nth-child(n+4):not(img) {
+  background-color: #ccc;
+  padding: 5px;
+}
+
+#orgIn {
+  margin: 5px;
+}
+
+.formgroup {
+  margin-bottom: 5px;
+}
+
+#dataMember {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  column-gap: 15px;
+}
