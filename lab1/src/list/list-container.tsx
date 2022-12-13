@@ -1,9 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { InputField } from "../components/input-component";
 import { MemberRow } from "../components/rowComponent";
 import { OrgContext } from "../provider/org-context";
-import { orgRoutes, routes } from "../routes/routes";
 
 interface MemberData {
     id: string;

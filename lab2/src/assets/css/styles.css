@@ -1,0 +1,45 @@
+.container {
+  margin: 20px;
+  display: flex;
+}
+
+.section {
+  width: 80%;
+  border-right: 1px solid black;
+}
+
+.cart {
+  width: 20%;
+  padding-left: 15px;
+}
+
+nav a {
+  margin-right: 10px;
+}
+
+.listcontainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.listpicture {
+  text-align: center;
+  width: 100px;
+}
+
+.listpicture img {
+  width: 100px;
+}
+
+.miniImg {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.cartRow {
+  width: 300px;
+  display: flex;
+  margin-bottom: 15px;
+  gap: 10px;
+}
